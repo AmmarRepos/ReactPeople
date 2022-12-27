@@ -1,0 +1,51 @@
+@model IEnumerable<mvc_ef.Models.Person>
+
+@{
+    ViewData["Title"] = "People";
+}
+
+<h1>People</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+	    <th>
+                @Html.DisplayNameFor(model => model.City.CityName)
+            </th>
+	    <th>
+                @Html.DisplayNameFor(model => model.City.Country.CountryName)
+            </th>
+	    <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonName)
+            </td>
+	    <td>
+                @Html.DisplayFor(modelItem => item.City.CityName)
+            </td>
+	    <td>
+                @Html.DisplayFor(modelItem => item.City.Country.CountryName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+		<a asp-controller="PersonLanguage" asp-action="Edit" asp-route-id="@item.Id">Languages</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

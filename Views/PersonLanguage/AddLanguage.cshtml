@@ -1,0 +1,32 @@
+@model mvc_ef.Models.Language
+
+@{
+    ViewData["Title"] = "Add Language";
+}
+
+<h1>Add</h1>
+
+<h3>Are you sure you want to Add @Model.LanguageName (@Model.Id)</h3>
+<div>
+    <h4>to @ViewData["PersonName"] (@ViewData["PersonId"])</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+        
+        </dt>
+        <dd class = "col-sm-10">
+        
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LanguageName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LanguageName)
+        </dd>
+    </dl>
+    
+    <form asp-action="AddLanguage" >
+        <input type="submit" value="Add" class="btn btn-primary" asp-route-languageId="@Model.Id" asp-route-id=@ViewData["PersonId"] /> |
+        <a asp-action="Edit" asp-controller="PersonLanguage" asp-route-id=@ViewData["PersonId"]>Back to Language List</a>
+    </form>
+</div>

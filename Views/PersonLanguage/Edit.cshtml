@@ -1,0 +1,40 @@
+@model mvc_ef.Models.Person
+
+    @{
+	ViewData["Title"] = "Languages";
+    }
+
+    <h1>@Model.PersonName</h1>
+
+    <p>
+	<a asp-action="Add" asp-route-id="@Model.Id">Add Language</a>
+    </p>
+    <table class="table">
+	<thead>
+            <tr>
+		<th>
+                    @Html.DisplayNameFor(model => model.Languages)
+		</th>
+		<th>
+
+		</th>
+		</th>
+            </tr>
+	</thead>
+	<tbody>
+	    @foreach (var item in Model.Languages)
+	    {
+		<tr>
+		<td>
+	    	@Html.DisplayFor(modelItem => item.LanguageName)
+		</td>
+		<td>
+                    <a asp-action="DeleteLanguage" asp-route-languageId="@item.Id" asp-route-id="@Model.Id">Delete</a>
+		</td>
+		</tr>
+		}
+	</tbody>
+    </table>
+    <div>
+	<a asp-controller="Person" asp-action="Index">Back to List</a>
+    </div>
