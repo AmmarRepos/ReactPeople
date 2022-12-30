@@ -8,8 +8,6 @@ export function PersonDetails (){
 
     const location = useLocation();
     console.log(location.pathname);
-//    const person = location.state?.person;
-//    const id = person.id;
     const id = location.pathname;
    
     const navigate = useNavigate();
@@ -18,12 +16,13 @@ export function PersonDetails (){
 
     useEffect(() => {
         axios.get("https://localhost:7223/api/react" + id)
-        .then(response => setDetails(response.data))
+            .then(response => setDetails(response.data))
+	console.log(details);
     },[]);
     
     async function DeletePerson(){
         await axios.delete('https://localhost:7223/api/React/' + id)
-        .then(response => response.status === 202 ? navigate("/People") : "")
+            .then(response => response.status === 202 ? navigate("/People") : "")
         
     }
 
@@ -39,20 +38,16 @@ export function PersonDetails (){
             <tbody>
                 <tr>
                     <th>Name</th>
-                    <td>{person.name}</td>
-                </tr>
-                <tr>
-                    <th>Phone Number</th>
-                    <td>{person.phoneNumber}</td>
+                    <td>{details.personName}</td>
                 </tr>
                 <tr>
                     <th>City</th>
                  
-                    <td>{details.city}</td>
+                    <td>{details.city.cityName}</td>
                 </tr>
                 <tr>
                     <th>Country</th>
-                    <td>{details.country}</td>
+                    <td>{details.city.country.countryName}</td>
                 </tr>
                 <tr>
                     <th>Languages</th>
@@ -68,7 +63,7 @@ export function PersonDetails (){
         <button className="btn btn-outline-dark" onClick={() => setEditPerson(true)} >Edit Person</button>                    
         <button className="btn btn-outline-dark m-1" onClick={() => DeletePerson()} >Delete Person</button>
 
-        {editPerson === true ? <EditPerson person={person} details={details}/> : <></>}
+        {editPerson === true ? <EditPerson person={"person"} details={details}/> : <></>}
 
         </div>
     )
