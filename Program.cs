@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 //EF related services
 builder.Services.AddDbContext<SqliteContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("SqliteContext")));
+
 // The AddDatabaseDeveloperPageExceptionFilter provides helpful error information in the development environment.
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 

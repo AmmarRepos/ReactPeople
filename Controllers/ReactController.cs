@@ -6,10 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System.Text.Json.Nodes;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace mvc_ef.Controllers
 {
-  [Route("[controller]")]
+
+  [Route("api/[controller]")]
   [ApiController]
   public class ReactController : ControllerBase
   {
@@ -31,6 +33,16 @@ namespace mvc_ef.Controllers
     }
 
 
+    [HttpGet("languages")]
+    public List<Language> languages()
+    {
+      return _context.Languages
+        // .Include(x => x.City).Include(y => y.City.Country)
+        // .Include(p=>p.Languages)
+        .ToList();
+    }
+
+
     [HttpGet("cities/{id}")]
     public List<City> GetCities(int id)
     {
@@ -41,7 +53,9 @@ namespace mvc_ef.Controllers
     [HttpGet("countries")]
     public List<Country> GetCountries()
     {
-      return _context.Countries.Include(y => y.Cities).ToList();
+      return _context.Countries
+        // .Include(y => y.Cities)
+        .ToList();
     }
 
 
@@ -56,18 +70,50 @@ namespace mvc_ef.Controllers
       return StatusCode(200);
     }
 
+    [HttpGet("{id}")]
+    public List<Person> GetPerson(int id)
+    {
+	return _context.People
+	    .Where(p => p.Id == id)
+	    .Include(x => x.City).Include(y => y.City.Country)
+	    .Include(p=>p.Languages)
+	    .ToList();
+    }
+
+
+    
     [HttpPost("create")]
     public IActionResult Create(JsonObject personJson)
     {
-      string jsonPerson = personJson.ToString();
-      PersonReact personToCreate = JsonConvert.DeserializeObject<PersonReact>(jsonPerson);
 
-      if (personToCreate != null)
-      {
-        _context.People.Add(new Person { PersonName = personToCreate.Name, CityId = personToCreate.City });
-        _context.SaveChanges();
-        return StatusCode(200);
-      }
+
+	//[Bind("PersonName,CityId")]
+
+	if (personJson !=null)
+	{
+	    Person person = new  Person();
+	    person.PersonName = personJson["name"].ToString();
+	    person.CityId = int.Parse(personJson["cityId"].ToString());
+	    _context.Add(person);
+	    int languageId = int.Parse(personJson["languageId"].ToString());
+	    Language language = _context.Languages.FirstOrDefault(l => l.Id == languageId);
+	    person.Languages.Add(language);
+	    _context.SaveChanges();
+	    return StatusCode(201);
+	}
+
+      // string jsonPerson = personJson.ToString();
+      // PersonReact personToCreate = JsonConvert.DeserializeObject<PersonReact>(jsonPerson);
+
+      // if (personToCreate != null)
+      // {
+      //   _context.People.Add(new Person { PersonName = personToCreate.Name, CityId = personToCreate.City });
+      //   _context.SaveChanges();
+      //   return StatusCode(200);
+      // }
+      Console.WriteLine(personJson["name"].ToString());
+      Type type = personJson.GetType();
+      Console.WriteLine(type.Name);
       return StatusCode(404);
     }
   }
