@@ -8,133 +8,133 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mvc_ef
 build_property.RootNamespace = mvc_ef
-build_property.ProjectDir = c:\Users\Lexicon\Desktop\Repos\React\
+build_property.ProjectDir = /home/ammar/repos/ReactPeople/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Lexicon\Desktop\Repos\React
+build_property.MSBuildProjectDirectory = /home/ammar/repos/ReactPeople
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/City/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDcmVhdGUuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2l0eS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/City/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGUuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/City/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2l0eS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/City/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZXRhaWxzLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/City/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2l0eS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/City/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxFZGl0LmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/City/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2l0eS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/City/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2l0eS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Country/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxDcmVhdGUuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Country/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291bnRyeS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Country/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxEZWxldGUuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Country/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291bnRyeS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Country/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxEZXRhaWxzLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Country/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291bnRyeS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Country/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxFZGl0LmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Country/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291bnRyeS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Country/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxJbmRleC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Country/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291bnRyeS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Language/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcQ3JlYXRlLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Language/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZ3VhZ2UvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Language/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRGVsZXRlLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Language/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZ3VhZ2UvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Language/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRGV0YWlscy5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Language/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZ3VhZ2UvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Language/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRWRpdC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Language/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZ3VhZ2UvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Language/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcSW5kZXguY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Language/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZ3VhZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/PersonLanguage/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTGFuZ3VhZ2VcQWRkLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/PersonLanguage/AddLanguage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTGFuZ3VhZ2VcQWRkTGFuZ3VhZ2UuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Person/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/PersonLanguage/DeleteLanguage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTGFuZ3VhZ2VcRGVsZXRlTGFuZ3VhZ2UuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/PersonLanguage/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTGFuZ3VhZ2VcRWRpdC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Person/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Person/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/PersonLanguage/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uTGFuZ3VhZ2UvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Person/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/PersonLanguage/AddLanguage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uTGFuZ3VhZ2UvQWRkTGFuZ3VhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Person/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/PersonLanguage/DeleteLanguage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uTGFuZ3VhZ2UvRGVsZXRlTGFuZ3VhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Person/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/PersonLanguage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uTGFuZ3VhZ2UvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/ammar/repos/ReactPeople/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/ammar/repos/ReactPeople/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/ammar/repos/ReactPeople/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Lexicon/Desktop/Repos/React/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-wwkzd0evuh
+[/home/ammar/repos/ReactPeople/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1gzp1v1z5f

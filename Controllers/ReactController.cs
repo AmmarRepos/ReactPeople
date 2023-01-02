@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace mvc_ef.Controllers
 {
-
   [Route("api/[controller]")]
   [ApiController]
   public class ReactController : ControllerBase
@@ -22,7 +21,6 @@ namespace mvc_ef.Controllers
       _context = context;
     }
 
-
     [HttpGet]
     public List<Person> GetPeople()
     {
@@ -31,7 +29,6 @@ namespace mvc_ef.Controllers
         // .Include(p=>p.Languages)
         .ToList();
     }
-
 
     [HttpGet("languages")]
     public List<Language> languages()
@@ -49,7 +46,6 @@ namespace mvc_ef.Controllers
       return _context.Cities.Where(x => x.CountryId == id).ToList();
     }
 
-
     [HttpGet("countries")]
     public List<Country> GetCountries()
     {
@@ -57,7 +53,6 @@ namespace mvc_ef.Controllers
         // .Include(y => y.Cities)
         .ToList();
     }
-
 
     [HttpDelete("{id}")]
     public IActionResult Delete(int id)
@@ -80,15 +75,10 @@ namespace mvc_ef.Controllers
 	    .ToList();
     }
 
-
-    
     [HttpPost("create")]
     public IActionResult Create(JsonObject personJson)
     {
-
-
 	//[Bind("PersonName,CityId")]
-
 	if (personJson !=null)
 	{
 	    Person person = new  Person();
@@ -104,7 +94,6 @@ namespace mvc_ef.Controllers
 
       // string jsonPerson = personJson.ToString();
       // PersonReact personToCreate = JsonConvert.DeserializeObject<PersonReact>(jsonPerson);
-
       // if (personToCreate != null)
       // {
       //   _context.People.Add(new Person { PersonName = personToCreate.Name, CityId = personToCreate.City });

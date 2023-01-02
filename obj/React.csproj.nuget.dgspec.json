@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Lexicon\\Desktop\\Repos\\React\\React.csproj": {}
+    "/home/ammar/repos/ReactPeople/React.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Lexicon\\Desktop\\Repos\\React\\React.csproj": {
+    "/home/ammar/repos/ReactPeople/React.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Lexicon\\Desktop\\Repos\\React\\React.csproj",
+        "projectUniqueName": "/home/ammar/repos/ReactPeople/React.csproj",
         "projectName": "React",
-        "projectPath": "c:\\Users\\Lexicon\\Desktop\\Repos\\React\\React.csproj",
-        "packagesPath": "C:\\Users\\Lexicon\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Lexicon\\Desktop\\Repos\\React\\obj\\",
+        "projectPath": "/home/ammar/repos/ReactPeople/React.csproj",
+        "packagesPath": "/home/ammar/.nuget/packages/",
+        "outputPath": "/home/ammar/repos/ReactPeople/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lexicon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ammar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/gnu/store/6rbp6pk416b524m8cpha2cz28lq2k6sg-dotnet-6.0.300/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
